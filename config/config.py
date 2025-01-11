@@ -29,7 +29,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7998259305:AAHTunpTC6ktj4S-DxUMet4GSNXqcrYwd4c"
 
 BOT_USERNAME = getenv("BOT_USERNAME", "freyamusicbot")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 
 CLEANMODE_DELETE_MINS = int(
