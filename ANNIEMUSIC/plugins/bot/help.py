@@ -499,7 +499,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         [
             InlineKeyboardButton(text="𝓢𝓹𝓪𝓻𝓴 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓻✨", url=f"https://t.me/about_spark_developer/7"),
             InlineKeyboardButton(
-                text="Owner's clan 🎄", url=f"https://t.me/grandxmasti"
+                text="Owner's clan 🎄", url=f"https://t.me/mastixmusic"
             ),
         ],
         [
@@ -511,7 +511,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
-        "**Hey,**\n\n**I am Annie bot ✨**\n**I am created with love by my [🇲σ᭡፝֟ɳ](https://t.me/about_ur_moonshining/5)🌙 ❤.**",
+        "**Hey,**\n\n**I am Freya bot ✨**\n**I am created with love by my [𝓢𝓹𝓪𝓻𝓴 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓻✨](https://t.me/about_spark_developer/7)🌙 ❤.**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -535,7 +535,7 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
         ],
         [InlineKeyboardButton(text="✯ Home ✯", callback_data="go_to_start")],
     ]
-    k = f"""Annie bot 🦋 help menu ✨*"""
+    k = f"""Freya bot 🦋 help menu ✨*"""
     await callback_query.message.edit_text(
         text=k, reply_markup=InlineKeyboardMarkup(keyboard)
     )
@@ -585,7 +585,7 @@ async def music_callback(client: Client, callback_query: CallbackQuery):
     )
 
     await callback_query.message.edit(
-        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/grandxmasti)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
+        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/mastixmusic)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
         reply_markup=keyboard,
     )
 
@@ -691,7 +691,7 @@ async def tools_callback(client: Client, callback_query: CallbackQuery):
     )
 
     await callback_query.message.edit(
-        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/grandxmasti)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
+        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/mastixmusic)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
         reply_markup=keyboard,
     )
 
@@ -716,7 +716,7 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
 
-    k = f"""Annie bot 🦋 help menu ✨"""
+    k = f"""Freya bot 🦋 help menu ✨"""
     await callback_query.message.edit_text(
         text=k,
         reply_markup=InlineKeyboardMarkup(keyboard),
@@ -770,12 +770,12 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
             InlineKeyboardButton(
-                text="• Annie v2.0 •",
+                text="• Freya 2.0 •",
                 callback_data="annie",
             ),
         ],
         [
-            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/grandxmasti"),
+            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/mastixmusic"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -785,15 +785,15 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"Hi i am Annie bot 🦋\nA powerful and awesome telegram group management and music player that gives you spam-free and fun environment for your groups :)\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)\n\n● I can restrict users.\n● I can greet users with customizable welcome messages and even set a group's rules.\n● I have a music player system.\n● I have almost all awaited group managing features like ban, mute, welcome, kick, federation, and many more.\n● I have a note-keeping system, blacklists, and even predetermined replies on certain keywords.\n● I check for admins' permissions before executing any command and more stuff\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ Annie bot 🦋.",
+        f"Hi i am Freya bot 🦋\nA powerful and awesome telegram group management and music player that gives you spam-free and fun environment for your groups :)\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)\n\n● I can restrict users.\n● I can greet users with customizable welcome messages and even set a group's rules.\n● I have a music player system.\n● I have almost all awaited group managing features like ban, mute, welcome, kick, federation, and many more.\n● I have a note-keeping system, blacklists, and even predetermined replies on certain keywords.\n● I check for admins' permissions before executing any command and more stuff\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ Freya bot 🦋.",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
-@app.on_callback_query(filters.regex("annie"))
+@app.on_callback_query(filters.regex("Freya"))
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="Guide 📃", url=f"t.me/grandxmasti"),
+            InlineKeyboardButton(text="Guide 📃", url=f"t.me/mastixmusic"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -803,7 +803,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"We have added or upgraded the following plugins given below ✨\n\n• Added ai response and ai img(chat-gpt).\n• Added quotly.\n• Added emoji game.\n• Update howsall, judge, wish, afk feature.\n• Update write, bug and fedration tools.\n• Added gif and animated sticker kang also.\n• Added Website of bot for preview.\n• Added Pinterest,yt and Insta video downloader.\n• Added inbuilt music system.\n\nFor more info about Annie updates check website 🎄👀.",
+        f"We have added or upgraded the following plugins given below ✨\n\n• Added ai response and ai img(chat-gpt).\n• Added quotly.\n• Added emoji game.\n• Update howsall, judge, wish, afk feature.\n• Update write, bug and fedration tools.\n• Added gif and animated sticker kang also.\n• Added Pinterest,yt and Insta video downloader.\n• Added inbuilt music system.\n\nFor more info about Freya updates check @Spark_Developer_Bots 🎄👀.",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -815,13 +815,13 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
         [
             InlineKeyboardButton(text="Developer 👨‍💻", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="🌱ɢɪᴛʜᴜʙ🌱",
-                url="https://github.com/moonshining1/annie-music/fork",
+                text="🌱ɢɪᴛʜᴜʙ Repo Paid🌱",
+                url="https://t.me/Spark_Developer",
             ),
         ],
         [
-            InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/grandxmasti"),
-            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/kittyxupdates "),
+            InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/mastixmusic"),
+            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/Spark_Developer_Bots "),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -838,13 +838,13 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
         [
             InlineKeyboardButton(text="Developer 👨‍💻", callback_data="developer"),
             InlineKeyboardButton(
-                text="🌱Github🌱",
-                url="https://github.com/moonshining1/annie-music/fork",
+                text="🌱ɢɪᴛʜᴜʙ Repo Paid🌱",
+                url="https://t.me/Spark_Developer",
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/kittyxupdates"),
-            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/pwmbothub"),
+            InlineKeyboardButton(text="Freya updates", url=f"https://t.me/mastixmusic"),
+            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/Study_Ocean_Bot"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -859,19 +859,19 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
         [
             InlineKeyboardButton(text="Developer 👨‍💻", callback_data="developer"),
             InlineKeyboardButton(
-                text="🌱Repo🌱",
-                url="https://github.com/moonshining1/annie-music",
+                text="🌱ɢɪᴛʜᴜʙ Repo Paid🌱",
+                url="https://t.me/Spark_Developer",
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/kittyxupdates"),
-            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/pwmbothub"),
+            InlineKeyboardButton(text="Freya updates", url=f"https://t.me/Spark_Developer_Bots"),
+            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/Study_Ocean_Bot"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
     
     await callback_query.message.edit_text(
-        "Hey,\nThis is Annie bot 🦋\n\nAn open source telegram group management+ music bot\nHere is my source code [Repo](https://github.com/moonshining1/annie-music/fork) (✿◠‿◠)",
+        "Hey,\nThis is Freya bot 🦋\n\nAn open source telegram group management+ music bot\nMy source code is paid [Repo](https://t.me/Spark_Developer) (✿◠‿◠)",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
