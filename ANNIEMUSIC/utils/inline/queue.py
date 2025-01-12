@@ -81,7 +81,7 @@ def aq_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/kittyxupdates",
+                url="https://t.me/Spark_Developer_Bots",
             ),
         ],
     ]
@@ -116,7 +116,7 @@ def queuemarkup(_, vidid, chat_id):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/kittyxupdates",
+                url="https://t.me/Spark_Developer_Bots",
             ),
         ],
     ]
