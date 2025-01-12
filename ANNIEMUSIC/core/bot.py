@@ -81,7 +81,7 @@ class ANNIEBot(Client):
                     f"☁️  Ram: 13.15\n"
                     f"❄️  Cpu: 1.34.0\n"
                     f"🔮  Disk: 2.0.106\n\n"
-                    f"<i>Made {self.mention} with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs✨🥀</i>",
+                    f"<i>Made {self.mention} with love by ꜱᴘᴀʀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ✨🥀</i>",
                     reply_markup=button,
                 )
             except pyrogram.errors.ChatWriteForbidden as e:
@@ -95,7 +95,7 @@ class ANNIEBot(Client):
                         f"☁️  Ram: 13.15\n"
                         f"❄️  Cpu: 1.34.0\n"
                         f"🔮  Disk: 2.0.106\n\n"
-                        f"<i>Made {self.mention} with love by ᴅᴇᴠᴇʟᴏᴘᴇʀs✨🥀</i>",
+                        f"<i>Made {self.mention} with love by ꜱᴘᴀʀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ✨🥀</i>",
                         reply_markup=button,
                     )
                 except Exception as e:
