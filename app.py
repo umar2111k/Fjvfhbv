@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Radhe Radhe"
+    return "Spark Developer"
 
 
 if __name__ == "__main__":
