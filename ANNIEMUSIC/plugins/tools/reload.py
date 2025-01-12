@@ -136,9 +136,9 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• Add me  •", url="https://t.me/musicXanime_bot?startgroup=true"),
+                        "• Add me  •", url="https://t.me/freyamusicbot?startgroup=true"),
                     InlineKeyboardButton(
-                        "• Update  •", url="https://t.me/kittyxupdates")  # New button added
+                        "• Update  •", url="https://t.me/Spark_Developer_Bots")  # New button added
                 ]
             ]
         ),
