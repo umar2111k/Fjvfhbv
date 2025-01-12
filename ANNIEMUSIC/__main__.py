@@ -60,7 +60,7 @@ async def init():
     await userbot.start()
     await ANNIE.start()
     await ANNIE.decorators()
-    LOGGER("ANNIEMUSIC").info("ANNIEMUSIC STARTED SUCCESSFULLY 🕊️")
+    LOGGER("ANNIEMUSIC").info("Spark Developer Bot STARTED SUCCESSFULLY 🕊️")
     await idle()
 
 
