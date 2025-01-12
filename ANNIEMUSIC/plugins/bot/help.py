@@ -167,14 +167,14 @@ async def help_command(client, message):
     # Define the buttons
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("• Open in private •", url="https://t.me/MeowstericXBot?start=help")],
+            [InlineKeyboardButton("• Open in private •", url="https://t.me/freyamusicbot?start=help")],
             [InlineKeyboardButton("• Open here •", callback_data="features")]
         ]
     )
     
     # Send photo with text and buttons
     await message.reply_photo(
-        photo="https://envs.sh/jl2.png",  # Replace with your photo path or URL
+        photo="http://ibb.co/zVCWXsq",  # Replace with your photo path or URL
         caption="» Choose a way to get help from me ✨",
         reply_markup=keyboard
             )
@@ -185,14 +185,14 @@ async def help_command(client, message):
     # Define the buttons
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("• Add me •", url="https://t.me/MeowstericXBot?startgroup=true")],
-            [InlineKeyboardButton("• Update •", url="https://t.me/kittyxupdates")]
+            [InlineKeyboardButton("• Add me •", url="https://t.me/freyamusicbot?startgroup=true")],
+            [InlineKeyboardButton("• Update •", url="https://t.me/Spark_Developer_Bots")]
         ]
     )
     
     # Send photo with text and buttons
     await message.reply_photo(
-        photo="https://envs.sh/jl2.png",  # Replace with your photo path or URL
+        photo="http://ibb.co/zVCWXsq",  # Replace with your photo path or URL
         caption="» Here's how I can help you! Please click the button below to view all available commands. ✨",
         reply_markup=keyboard
     )
@@ -497,7 +497,7 @@ async def tools_callback_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/about_ur_moonshining/5"),
+            InlineKeyboardButton(text="𝓢𝓹𝓪𝓻𝓴 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓻✨", url=f"https://t.me/about_spark_developer/7"),
             InlineKeyboardButton(
                 text="Owner's clan 🎄", url=f"https://t.me/grandxmasti"
             ),
