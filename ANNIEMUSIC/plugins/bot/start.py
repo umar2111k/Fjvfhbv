@@ -312,7 +312,7 @@ async def testbot(client, message: Message, _):
         # Send the response with the group photo or fallback to START_IMG_URL
         if chat_photo:
             await message.reply_photo(
-                photo=chat_photo,
+                photo=config.START_IMG_URL,
                 caption=_["start_7"].format(client.mention, get_readable_time(uptime)),
                 reply_markup=InlineKeyboardMarkup(out),
             )
